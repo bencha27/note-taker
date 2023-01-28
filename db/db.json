@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Test Title",
+    "text": "Test text"
+  },
+  {
+    "title": "First Note",
+    "text": "This is a test.",
+    "id": "78bb"
+  },
+  {
+    "title": "New Note",
+    "text": "This is a new note.",
+    "id": "3c32"
+  },
+  {
+    "title": "Another Note",
+    "text": "This is another test.",
+    "id": "-hvz"
+  },
+  {
+    "title": "Nanoid Test",
+    "text": "Testing if generating id with nanoid works",
+    "id": "Cwpq"
+  }
+]
