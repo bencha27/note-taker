@@ -13,6 +13,9 @@ This is a basic app for writing and saving notes.
 
 ## Usage
 
+Demo\
+![Note Taker Demo](./public/assets/images/Note%20Taker%20Demo.gif)
+
 - Open the app in the browser.
 - From the homepage, click on "Get Started".
 - To create a new note, click on the + sign in the top right corner of the page. Or simply click on an input field and start typing.
