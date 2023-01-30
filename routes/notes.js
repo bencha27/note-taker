@@ -35,12 +35,12 @@ notes.post("/", (req, res) => {
   }
 });
 
-// GET route for loading a specific note
+// GET route for loading a saved note
 notes.get("/:id", (req, res) => {
-  const requestedNote = req.params.id;
+  const requestedNoteId = req.params.id;
 
   for (let i = 0; i < notesData.length; i++) {
-    if (requestedNote === notesData[i].id) {
+    if (requestedNoteId === notesData[i].id) {
       return res.json(notesData[i]);
     }
   }

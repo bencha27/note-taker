@@ -29,16 +29,8 @@ let activeNote = {};
 const getNotes = () =>
   fetch('/api/notes', {
     method: 'GET',
-  })
-    // .then((res) => res.json())
-    // .then((data) => {
-    //   console.log("Successful GET request:", data);
-    //   return data;
-    // })
-    // .catch((err) => {
-    //   console.error("Error in GET request:", err);
-    // });
-
+  });
+    
 // Function to save "note" object, send POST request, and return the result
 const saveNote = (note) =>
   fetch('/api/notes', {

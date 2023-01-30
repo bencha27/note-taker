@@ -22,5 +22,10 @@
     "title": "Nanoid Test",
     "text": "Testing if generating id with nanoid works",
     "id": "Cwpq"
+  },
+  {
+    "title": "Is this app working?",
+    "text": "Let's see if everything is functional…",
+    "id": "vYOX"
   }
 ]
